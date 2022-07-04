@@ -55,3 +55,39 @@ a{
 a:hover{
   background-color: aquamarine;
 }
+
+.section3{
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+ 
+}
+.child{
+  display: flex;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 100px;
+}
+.child p{
+  color: gray;
+}
+.child1{
+  width: 50%;
+  box-shadow: 2px 3px 3px 3px gray;
+  margin:15px 40px;
+  padding:10px 20px;
+  padding-bottom:40px;
+  border-left: 7px solid salmon;
+ 
+  
+}
+.child2{
+  width: 50%;
+  box-shadow: 2px 3px 3px 3px gray;
+  margin:15px 40px;
+  padding:10px 20px;
+  border-left: 7px solid blue;
+}
+footer p{
+  text-align: center;
+}
